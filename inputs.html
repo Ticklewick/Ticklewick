@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+</head>
+
+<body>
+  <center>
+    <label>Choose your vaccine:</label>
+    <br><br>
+    <input list="vaccine-types" id="vaccine-choice" name="vaccine-types" />
+    <datalist id="vaccine-types">
+      <option value="astra zeneca">
+      <option value="pfizer">
+      <option value="moderna">
+      </option>
+    </datalist>
+    <button>Select</button>
+  </center>
+
+
+
+
+
+  <h3>Please fill the following details</h3>
+  <form action="mailto:ticklewick.official@gmail.com" method="post" enctype="text/plain">
+
+    <label>Your Name:</label>
+    <input type="Name" name="yourName" />
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" />
+    <br>
+    <label>Your Password</label>
+    <input type="password" name="yourPassword" />
+    <input type="submit" type="button" />
+    <input type="reset" name="Reset">
+  </form>
+  <br>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <h4>Please tick the following:</h4>
+    <table cellspacing="10">
+      <ol type="1">
+        <tr>
+          <td>
+            <li><label>Are you having fever for the past 3 days?</label></li>
+          </td>
+          <td><input type="checkbox" name="" value=""></td>
+        </tr>
+      </ol>
+      <ol type="2">
+        <tr>
+          <td>
+            <li><label>Do you have flu for the past 3 days?</label></li>
+          </td>
+          <td><input type="checkbox" name="" value=""></td>
+        </tr>
+      </ol>
+      <ol type="3">
+        <tr>
+          <td>
+            <li><label>Have you travelled to any identified Covid hotspots the past 3 days?</label></li>
+          </td>
+          <td><input type="checkbox" name="" value=""></td>
+
+        </tr>
+      </ol>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><input type="submit" type="button"></td>
+      </tr>
+    </table>
+    <hr>
+  </form>
+
+</body>
+
+</html>
